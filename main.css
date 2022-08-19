@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "inter-medium";
+    src: url("./font/Inter-Medium-RNI73PYA.woff2");
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url("./font/Inter-Bold-FINJV4KU.woff2");
+}
+body{
+    font-family: "inter-medium", sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    background: black;
+    height: 10vh;
+}
+#logo_span{
+    background: #0099FF;
+    transform: rotate(-10deg);
+    left: 33%;
+    top: 30%;
+}
+#hero-section{
+    background: radial-gradient(100% 32.6% at 50% 100%, rgb(76, 33, 80) 0%, rgb(0, 0, 0) 100%);
+}
+#feature-list img{
+    width: 1em;
+}
+.template-img{
+    transition: transform .2s ease;
+}
+.template-img:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 5px rgba(20, 20, 20, 0.596);
+}
+#icon{
+    transition: font-size 1.5s ease;
+    font-size: 5em;
+}
+#icon:hover{
+    font-size: 10em;
+}
+#footer{
+    background: radial-gradient(100% 50% at 48.8% 0%, rgb(76, 33, 80) 0%, rgb(0, 0, 0) 100%);
+}
+.footer-btn{
+    border: 1.5px solid transparent;
+    transition: border-color .2s ease;
+}
+.footer-btn:hover{
+    cursor: pointer;
+    border-color: #0099FF;
+} 
+@media (min-width: 992px) { 
+    #new{
+        transform: rotate(-8deg);
+    }
+    #exp{
+        position: absolute;
+        left: 52%;
+        top: -70%;
+        font-size: 0.9em;
+    }
+    #footer-body{
+        width: 50%;
+    }
+    #footer-bottom{
+        width: 50%;
+    }
+}
